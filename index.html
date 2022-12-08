@@ -1,106 +1,123 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Jesse Pinkman CV</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="info">
-            <img src="avatar.png" alt="here is my photo"
-                class="avatar">
+      <div class="info">
+        <img src="media/avatar.png" alt="here is my photo" class="avatar" />
 
-            <div class="info-text">
-                <h1>Jesse Pinkman</h1>
-                <p>I've reached the highest skills in
-                <strong>production crystals, dude.</strong></p>
-                <p><i>I love to cook and to be one of the most
-                wanted people in USA, do you want some crap, biatch!</i></p>
+        <div class="info-text">
+          <h1>Jesse Pinkman</h1>
+          <p>
+            I've reached the highest skills in
+            <strong>production crystals, dude.</strong>
+          </p>
+          <p>
+            <i
+              >I love to cook and to be one of the most wanted people in USA, do
+              you want some crap, biatch!</i
+            >
+          </p>
 
-                <h3>My priorities, biatch!</h3>
-                <a href="https://www.investopedia.com/terms/t/time-weightedror.asp" target="_blank">Return money on time</a>
-                |
-                <a href="https://en.wikipedia.org/wiki/Calmness" target="_blank">Calmness</a>
+          <h3>My priorities, biatch!</h3>
+          <a
+            href="https://www.investopedia.com/terms/t/time-weightedror.asp"
+            target="_blank"
+            >Return money on time</a
+          >
+          |
+          <a href="https://en.wikipedia.org/wiki/Calmness" target="_blank"
+            >Calmness</a
+          >
+        </div>
+      </div>
+
+      <div class="card bg-yellow">
+        <h2>My contacts</h2>
+        <ol class="list">
+          <li><a href="https://vk.com" target="_blank">vk.com</a></li>
+          <li>1 4 8 3 to the 3 to the 6 to the 9</li>
+          <li>Negro Arroy Street</li>
+        </ol>
+      </div>
+
+      <div class="card bg-green">
+        <h2>Work experience</h2>
+        <table class="table">
+          <tr>
+            <td>School</td>
+            <td>Pupil of the future parther</td>
+            <td>1993-2004</td>
+          </tr>
+          <tr>
+            <td>Street</td>
+            <td>Seller and cooker</td>
+            <td>2007-2008</td>
+          </tr>
+          <tr>
+            <td>RV</td>
+            <td>Seller and cooking assistant</td>
+            <td>2008-2009</td>
+          </tr>
+          <tr>
+            <td>Gus's Lab</td>
+            <td>50/50 parther in cooking</td>
+            <td>2009-2011</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="card bg-red">
+        <h2>Mind-blowing videos</h2>
+        <ul class="link-list">
+          <li>
+            <a href="https://youtu.be/u1JVxqpg-Rs" target="_blank"
+              >If I had a heart</a
+            >
+          </li>
+          <li>
+            <a href="https://youtu.be/dy_DASt7hDs" target="_blank"
+              >Say my name</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h2>Contact with me</h2>
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Your name:</label>
+              <input type="text" id="name" placeholder="Write your name..." />
             </div>
-        </div>
-            
-            
+            <div class="form-group">
+              <label for="email">Your email:</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Write your email..."
+              />
+            </div>
+          </div>
 
-        <div class="card bg-yellow">
-            <h2>My contacts</h2>
-            <ol class="list">
-                <li><a href="https://vk.com" target="_blank">vk.com</a></li>
-                <li>1 4 8 3 to the 3 to the 6 to the 9</li>
-                <li>Negro Arroy Street</li>
-            </ol>
-        </div>
+          <div class="form-group">
+            <label for="text">Your message:</label>
 
-        <div class="card bg-green">
-            <h2>Work experience</h2>
-            <table class="table">
-                <tr>
-                    <td>School</td>
-                    <td>Pupil of the future parther</td> 
-                    <td>1993-2004</td> 
-                </tr>
-                <tr>
-                    <td>Street</td>
-                    <td>Seller and cooker</td>
-                    <td>2007-2008</td>
-                </tr>
-                <tr>
-                    <td>RV</td>
-                    <td>Seller and cooking assistant </td>
-                    <td>2008-2009</td>
-                </tr>
-                <tr>
-                    <td>Gus's Lab</td>
-                    <td>50/50 parther in cooking</td>
-                    <td>2009-2011</td>
-                </tr>
-            </table>
-        </div>
+            <textarea id="text" cols="15" rows="2"></textarea>
+          </div>
+          <input type="submit" class="btn" value="Submit" />
+        </form>
+      </div>
 
-        <div class="card bg-red">
-            <h2>Mind-blowing videos</h2>
-            <ul class="link-list">
-                <li><a href="https://youtu.be/u1JVxqpg-Rs" target="_blank">If I had a heart</a></li>
-                <li><a href="https://youtu.be/dy_DASt7hDs" target="_blank">Say my name</a></li>
-            </ul>
-        </div>
-        <div class="contact">
-            <h2>Contact with me</h2>
-            <form action="/">
-                <div class="row">
-                    <div class="form-group">
-                        <label for="name">Your name:</label>
-                        <input type="text" id="name" placeholder="Write your name...">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Your email:</label>
-                        <input type="email" id="email" placeholder="Write your email...">
-                    </div>
+      <div class="position">
+        <div class="box"></div>
+      </div>
+    </div>
 
-                </div>
-
-                <div class="form-group">
-                    <label for="text">Your message:</label>
-
-                    <textarea id="text"  cols="15" rows="2"></textarea>
-                </div>
-                <input type="submit" class="btn" value="Submit">
-            </form>
-        </div>
-
-        <div class="position">
-            <div class="box"></div>
-        </div> 
-        
-            
-    </div> 
-    
-    <div style="margin-bottom: 500px;"></div>
-    
-    </body>
+    <div style="margin-bottom: 500px"></div>
+  </body>
 </html>
